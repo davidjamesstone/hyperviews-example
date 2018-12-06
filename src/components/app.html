@@ -1,0 +1,43 @@
+<script>
+  import AppHeader from './header.js'
+  import SearchBox from './searchbox.js'
+
+  export default view
+</script>
+
+<function>
+  <div>
+    <AppHeader />
+    <main id='app'>
+      <!-- <section class='section'>
+        <div class='container'>
+          <h1 class='title'>
+            Hello World
+          </h1>
+          <p class='subtitle'>
+            My first website with <strong>Bulma</strong>!
+          </p>
+          <div>{state.count}</div>
+        </div>
+      </section> -->
+      <section id="newsletter" class="section is-medium">
+          <div class="container">
+            <div class="columns is-vcentered">
+              <div class="column is-three-fifths is-offset-one-fifth">
+                <SearchBox />  
+              </div>
+          </div>
+        </section>
+    </main>
+    <footer class='footer'>
+      <div class='content has-text-centered'>
+        <p>
+          <strong>Bulma</strong> by <a href='https://jgthms.com'>Jeremy Thomas</a>. The source code is licensed
+          <a href='http://opensource.org/licenses/mit-license.php'>MIT</a>. The website content
+          is licensed <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY NC SA 4.0</a>.
+        </p>
+      </div>
+    </footer>
+  </div>
+</function>
+
